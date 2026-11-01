@@ -1,0 +1,11 @@
+# Cấu trúc thư mục mong đợi (định dạng YOLO):
+# data/dataset/images/{train,val,test}/*.jpg
+# data/dataset/labels/{train,val,test}/*.txt
+# Không khai báo "path" => Ultralytics tự lấy thư mục chứa file này làm gốc.
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test
+
+names:
+  0: helmet
+  1: no_helmet

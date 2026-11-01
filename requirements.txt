@@ -1,0 +1,9 @@
+ultralytics>=8.3.0
+opencv-python-headless>=4.9
+gradio>=4.40
+numpy
+pyyaml
+onnx>=1.15
+onnxruntime>=1.17
+onnxslim
+lapx

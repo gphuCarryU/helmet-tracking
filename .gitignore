@@ -1,0 +1,6 @@
+__pycache__/
+runs/
+data/dataset/
+*.mp4
+*.pt
+.venv/
